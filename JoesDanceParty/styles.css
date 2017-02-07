@@ -1,0 +1,67 @@
+body, html{
+  height:100%;
+}
+body{
+  background-image: url("http://admissions.berkeley.edu/sites/default/files/pictures/wallpaper/berkeleybraggingrights-1920x1080.png");
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  background-color:#444;
+  font-size: 18px;
+  position: relative;
+}
+body, a:link, a:visited, a:active{
+  color: #E3C675;
+  text-decoration: none;
+}
+.title, .addDancerButton{
+  padding:5px 12px;
+  float:right;
+}
+.lineUpButton{
+  padding:5px 12px;
+  float:left;
+}
+.topbar{
+  z-index:-1;
+  color: #E3C675;
+  text-decoration: none;
+}
+.title{
+  text-decoration: none;
+  background-color: #1024A9;
+  opacity: .9;
+  border-radius: 10px;
+}
+.dancer{
+  content: url('./joedance/JoeSavage.gif');
+  border:0px solid blue;
+  border-radius:10px;
+  position:absolute;
+}
+.dancer2{
+  content: url('./joedance/JoeBusiness.gif');
+  width: 200px;
+  height: 300px;
+  border:0px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+.dancer3{
+  content: url('./joedance/JoeArtistic.gif');
+  border:0px solid blue;
+  border-radius:10px;
+  position:absolute;
+}
+.dancer4{
+  content: url('./joedance/JoeGangnam.gif');
+  border:0px solid blue;
+  border-radius:10px;
+  position:absolute;
+}
+.dancer5{
+  content: url('./joedance/JoeTricycle.gif');
+  border:0px solid blue;
+  border-radius:10px;
+  position:absolute;
+}
