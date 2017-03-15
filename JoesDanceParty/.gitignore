@@ -33,3 +33,10 @@ bower_components/
 .floobit
 .floo
 .flooignore
+
+.eslintrc.js
+.eslintignore
+circle.yml
+init
+
+.bin/
