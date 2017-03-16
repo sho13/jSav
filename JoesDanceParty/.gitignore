@@ -40,3 +40,7 @@ circle.yml
 init
 
 .bin/
+
+client/lib/chai/
+client/lib/mocha/
+client/lib/sinon/
